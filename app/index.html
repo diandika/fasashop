@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="fasashopApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="fasashopApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="fasashopApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="fasashopApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Fasashop Catalog</title>
+  <link rel="icon" href="img/icon.png">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS only -->
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" rel="stylesheet">
+  <link rel="stylesheet" href="app.css" type="text/css">
+  <link rel="stylesheet" href="page/main/products/products.css" type="text/css">
+  <link rel="stylesheet" href="page/main/sidebar/sidebar.css" type="text/css">
+  <link rel="stylesheet" href="page/product/product.css" type="text/css">
+  <script src="lib/angular/angular.js"></script>
+  <script src="app.js"></script>
+  <script src="lib/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="page/product/product.module.js"></script>
+  <script src="page/product/product.component.js"></script>
+  <script src="page/main/main.module.js"></script>
+  <script src="page/main/main.component.js"></script>
+</head>
+<body ng-controller="CatalogController">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light header">
+    <img src={{logo}} width="30" height="30" alt="fasashop"/>
+    <h2>Fasashop Catalog</h2>
+  </nav>
+  <br/>
+
+  <ng-view></ng-view>
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="page/main/products/products.js"></script>
+  <script src="page/main/sidebar/sidebar.js"></script>
+  <script src="core/version/version.js"></script>
+  <script src="core/version/version-directive.js"></script>
+  <script src="core/version/interpolate-filter.js"></script>
+</body>
+</html>
