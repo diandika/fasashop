@@ -1,0 +1,49 @@
+.detail-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: #282c34 0 2px 4px -1px;
+}
+
+.image-detail {
+    margin: 15px 0;
+}
+
+.product-description {
+    margin: 15px;
+}
+
+.name-detail {
+    font-size: 2.5em;
+}
+
+.price-detail {
+    font-size: 1.5em;
+}
+
+.shopee-button-container {
+    margin: 15px 0;
+}
+
+span.shopee-button {
+    background: #e0661f;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fdfdfd;
+    font-size: 1.4em;
+}
+
+span.shopee-button:link {
+    text-decoration: none;
+}
+
+span.shopee-button:hover {
+    text-decoration: none;
+}
+
+span.shopee-button:visited {
+    text-decoration: none;
+}
+
+.shopee-button:active {
+    text-decoration: none;
+}
